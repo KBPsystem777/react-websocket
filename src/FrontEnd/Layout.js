@@ -4,7 +4,7 @@ import { USER_CONNECTED, LOGOUT } from '../Events'
 import LoginForm from './LoginForm'
 import ChatContainer from './chat/ChatContainer'
 
-const socketUrl = "/"
+const socketUrl = "/socket.io/"
 export default class Layout extends Component {
 	
 	constructor(props) {
